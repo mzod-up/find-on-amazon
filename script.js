@@ -39,7 +39,7 @@ searchForm.addEventListener("submit", (e) => {
 
   ajaxGet(url, (err, res) => {
     if (err) {
-      results.innerHTML = `<p>An arror has occurred. ${err}`;
+      results.innerHTML = `<p>An error has occurred. ${err}`;
     } else {
       const data = JSON.parse(res);
       let products = `<p class="showing-results">
