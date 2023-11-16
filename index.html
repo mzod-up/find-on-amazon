@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find on Amazon</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/9fd4e5fd95.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="ico" href="/assets/favicon.ico" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <img class="top-logo" src="/assets/logo.png" alt="find on amazon logo" />
+      <form id="search-form">
+        <input
+          class="search"
+          id="search-term"
+          placeholder="Search for products on amazon..."
+        />
+        <button type="submit" class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+
+    <div class="results" id="results">
+      <div class="landing">
+        <div class="landing-left">
+          <h1 class="landing-text">Welcome to</h1>
+          <img class="landing-logo" src="/assets/findonamazon-landing.png" />
+          <p class="landing-subtext">
+            Enter a product name in the search bar above,<br />and click the
+            search button to view the top results.
+          </p>
+          <a href="https://github.com/mzod-up/find-on-amazon" target="_blank">
+            <img class="github" src="/assets/github.png" />
+          </a>
+        </div>
+        <div class="landing-right"></div>
+      </div>
+    </div>
+
+    <!-- AJAX -->
+    <script src="script.js"></script>
+  </body>
+</html>
