@@ -112,7 +112,6 @@ body {
 }
 
 .landing-right {
-  /* border: 1px solid red; */
   width: 50vw;
   background-image: url("/assets/side-img.png");
   background-repeat: no-repeat;
